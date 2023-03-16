@@ -1,5 +1,6 @@
 import express from 'express';
-import Userroute from './User/Userroute.js'
+import Userroute from '../User/Userroute.js'
+import Videoroute from '../Vidiary/Vidiaryroute.js';
 
 class routing{
     constructor(){
@@ -8,6 +9,7 @@ class routing{
     }
     setRouter(){
         this.router.use('/user',Userroute);
+        this.router.use('/vidiary',Videoroute);
     }
 }
 

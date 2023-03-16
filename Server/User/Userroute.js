@@ -1,6 +1,6 @@
 import express from 'express';
-import Usercontrol from './Usercontrol.js';
-import {userimageupload,userimagedelete} from '../config/profileupload.js';
+import UserControl from './UserControl';
+
 
 
 class Userroute{
@@ -9,7 +9,9 @@ class Userroute{
         this.setRouter();
     }
     setRouter(){
-        this.router.get();
+        this.router.post('/login',UserControl.process.login);
+        this.router.post('/signin',UserControl.process.signin);
+        this.router.get('/logout',UserControl.process.logout);
     }
 };
 
