@@ -1,6 +1,6 @@
 import express from'express';
 import VidiaryControl from './VidiaryControl';
-
+import {imageupload} from '../config/imageupload.js'
 
 class Circleroute{
     constructor(){
@@ -9,6 +9,7 @@ class Circleroute{
     }
     setrouter(){
         this.router.get('/:Userid',VidiaryControl.process.vidiary);
+        this.router.post('/:Userid/write',imageupload.single('image'),VidiaryControl.process.write);
     }
 }
 
