@@ -46,7 +46,7 @@ class userDao{
     async user_id(connection,email){
       try{
         const useridquery=`
-            SELECT id
+            SELECT user_id
             FROM User
             WHERE email=?;`;
         const user_id=await connection.query(

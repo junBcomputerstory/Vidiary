@@ -9,9 +9,9 @@ class Vidiaryget{
         return videorow[0];
     }
 
-    async getvideo(videoid){
+    async getvideo(user_id,videoid){
         const connection=await pool.getConnection(async(conn)=>conn);
-        const videoinfo=await VidiaryDao.getvideo(connection,videoid);
+        const videoinfo=await VidiaryDao.getvideo(connection,user_id,videoid);
         connection.release();
         return videoinfo[0];
     }

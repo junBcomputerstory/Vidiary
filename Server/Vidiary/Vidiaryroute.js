@@ -9,6 +9,7 @@ class Circleroute{
     }
     setrouter(){
         this.router.get('/:Userid',VidiaryControl.process.vidiary);
+        this.router.get('/:Userid/:videoid',VidiaryControl.process.video);
         this.router.post('/:Userid/write',imageupload.single('image'),VidiaryControl.process.write);
     }
 }
