@@ -20,3 +20,5 @@
 #### 석홍준
 #### 🔧 기술 스택 : Node.js, Mysql
 
+#### 🔧데이터 베이스:(https://user-images.githubusercontent.com/89785414/227761268-a0d3e078-11e5-46bb-a2e8-a5d5150a8627.svg)
+
