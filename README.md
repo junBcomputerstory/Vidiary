@@ -5,7 +5,7 @@
 
 
 ### MainPage<br>
-![initial] <img width="1429" alt="스크린샷 2023-03-25 오후 8 08 22" src="https://user-images.githubusercontent.com/89785414/227756779-82cd6426-3d52-448b-a2c8-1db92030f35d.png">
+<img width="1000" alt="스크린샷 2023-03-25 오후 8 08 22" src="https://user-images.githubusercontent.com/89785414/227756779-82cd6426-3d52-448b-a2c8-1db92030f35d.png">
 
 
 ---------------------------------------------------------------------
